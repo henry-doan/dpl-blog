@@ -9,6 +9,8 @@ Here are additional resource links
 >Link to the [CodePen](https://codepen.io/nightwing891/pen/mmoJQe?editors=1100)
 
 <br>
+<br>
+<br>
 
 ## HTML
 HTML, or Hyper Text Markup Language, is a programming language that is used to display content for web pages. It is sometimes referred to the skeletons of web pages, providing the foundation of the content for web pages.
@@ -63,6 +65,8 @@ Like the Header tag anything that is inside of the **Footer** tags, it will show
 <footer></footer>
 ```
 
+<br>
+<br>
 <br>
 
 ## CSS
