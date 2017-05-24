@@ -78,7 +78,7 @@ img {
 
 /* Footer */ 
 
-footer{
+footer {
 	background-color: #292c2f;
 	position: absolute;
 	width: 100%;
@@ -87,12 +87,12 @@ footer{
 }
 
 
-footer .footer-left{
+footer .footer-left {
 	width: 40%;
 }
 
 footer .footer-left,
-footer .footer-right{
+footer .footer-right {
 	display: inline-block;
 	vertical-align: top;
 }
@@ -100,32 +100,31 @@ footer .footer-right{
 
 /* Footer links */
 
-footer .footer-links{
+footer .footer-links {
 	color: #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
 }
 
-footer .footer-links a{
+footer .footer-links a {
 	line-height: 1.8;
 	text-decoration: none;
 	color: inherit;
 }
 
-footer .footer-name{
+footer .footer-name {
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
 }
 
-
 /* Footer Center Column */
 
-footer .footer-right{
+footer .footer-right {
 	width: 35%;
 }
 
-footer .footer-right p{
+footer .footer-right p {
 	display: inline-block;
 	color: #ffffff;
 	vertical-align: middle;
