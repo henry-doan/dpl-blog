@@ -79,7 +79,7 @@ Like the Header tag anything that is inside of the **Footer** tags, it will show
 CSS or Cascading Style Sheet is allows us to style our html elements using rules. CSS can style the sizing, typography, colors and positioning content on the page.
 
 ### Syntax
-The **Syntax** for the CSS language is a very different than the HTMl **Syntax** and it has two parts a **Selector** and a **Declaration**. **Selectors** are used to select elements that you want to manipulate.**Declarations** is how you want to manipulate the element and is incased in { } brackets. Declarations has a **Property** and a **Value** to manipulate the element and ends each manipulations with a semicolon ; .
+The **Syntax** for the CSS language is a very different than the HTML **Syntax** and it has two parts a **Selector** and a **Declaration**. **Selectors** are used to select elements that you want to manipulate.**Declarations** is how you want to manipulate the element and is encased in { } brackets. Declarations have a **Property** and a **Value** to manipulate the element and ends each manipulation with a semicolon ; .
 
 ```CSS
 
