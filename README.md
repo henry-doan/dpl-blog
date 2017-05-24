@@ -17,14 +17,24 @@ HTML, or Hyper Text Markup Language, is a programming language that is used to d
 Every programming language has different ways to write in the language, this is called **Syntax**. The **Syntax** for the HTML language has and opening and closing tag, with content in between. Opening tags in HTML starts with a less than symbol < then the tag keyword and finally a less than symbol >. Closing tags have the same format but a / before the tag keyword to show that it is an ending tag.
 
 ```HTML
+
+<!-- 
+    this is a opening tag: 
+        <p> 
+    
+    this is a closing tag:
+        </p>
+-->
+
 <p>Content goes here</p>
+
 ```
 
 Here is a resource that shows all the HTML tags
 
 >Link to the [HTML Tags](https://www.w3schools.com/tags/ref_byfunc.asp)
 
-### Comment
+### HTML Comment
 This is an example of a HTML comment:
 
 ```HTML
@@ -66,7 +76,40 @@ Like the Header tag anything that is inside of the **Footer** tags, it will show
 <br>
 
 ## CSS
+CSS or Cascading Style Sheet is allows us to style our html elements using rules. CSS can style the sizing, typography, colors and positioning content on the page.
 
+### Syntax
+The **Syntax** for the CSS language is a very different than the HTMl **Syntax** and it has two parts a **Selector** and a **Declaration**. **Selectors** are used to select elements that you want to manipulate.**Declarations** is how you want to manipulate the element and is incased in { } brackets. Declarations has a **Property** and a **Value** to manipulate the element and ends each manipulations with a semicolon ; .
+
+```CSS
+
+p {
+    color: red;
+}
+
+/* 
+    - p is the selector
+    - everything in the { } is the declaration
+    - color is a property
+    - red is the value
+    - ; ends the line of the what you want to declare
+
+    You can have multiple declarations such as below.
+ */
+
+h1 {
+    padding: 10px;
+    color: green;
+    font-size: 32px;
+}
+
+```
+
+Here is a resource of all the properties you can use on an element:
+
+>Link to the [CSS Properties](https://www.w3schools.com/cssref/)
+
+### CSS Comment
 This is an example of a css comment:
 
 ```CSS
