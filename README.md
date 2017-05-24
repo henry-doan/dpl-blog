@@ -133,3 +133,22 @@ This is an example of a multi-line css comment:
     comment. 
 */
 ```
+
+<br>
+
+##TODOS
+* [ ] Info on how to use selectors in css
+* [ ] Inline styling, styling tags, best practice
+* [ ] CSS units of measurements, px, rem, em, %, etc.
+* [ ] CSS Colors
+* [ ] Explain how files are in a certain language, .html, .css etc.
+* [ ] Link live Project
+* [ ] Box Model
+* [ ] How Pages Connects
+* [ ] Have examples of all of the elements
+* [ ] Have examples of all of the properties
+* [ ] Fonts / Typography
+* [ ] HTML Attributes
+* [ ] Separators, divs, aside, section etc. 
+* [ ] Advance sections of events with css, hover etc.
+    
