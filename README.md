@@ -2,3 +2,7 @@
 
 # [DevPoint Labs](http://www.devpointlabs.com/) Intro to HTML & CSS
 
+Here are additional resource links
+
+>Link to the [Presentation](https://docs.google.com/presentation/d/1m35mab5hIrNYBk2jVSQr31v7mTb30Sb3A5jWpHb6sjQ/edit?usp=sharing)
+>Link to the [CodePen](https://codepen.io/nightwing891/pen/mmoJQe?editors=1100)
