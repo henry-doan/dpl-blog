@@ -13,6 +13,22 @@ Here are additional resource links
 ## HTML
 HTML, or Hyper Text Markup Language, is a programming language that is used to display content for web pages. It is sometimes referred to the skeletons of web pages, providing the foundation of the content for web pages.
 
+### How to make a HTML file
+HTML files end in .html and it is case sensitive and it will tell web browsers that it is an HTML file and it is the structure of the web page. Before the .html is the name of the page, and for best practice for the main page is index.html. Here are some examples below
+
+```
+index.html
+contact.html
+about.html
+rockpage.html
+```
+
+To create an HTML file there are two best ways. The first is if you right click on where you want the file to be there might be an option under new to have a new file and name it something ending in .html. The other way is what developers do to create one is opening up the terminal and the change directory to where you want the file to be and then run this command:
+
+```shell
+touch index.html
+```
+
 ### Syntax
 Every programming language has different ways to write in the language, this is called **Syntax**. The **Syntax** for the HTML language has and opening and closing tag, with content in between. Opening tags in HTML starts with a less than symbol < then the tag keyword and finally a less than symbol >. Closing tags have the same format but a / before the tag keyword to show that it is an ending tag.
 
@@ -166,7 +182,7 @@ This is an example of a multi-line CSS comment:
 
 <br>
 
-##TODOS
+#TODOS
 * [x] Info on how to use selectors in CSS
 * [ ] Inline styling, styling tags, best practice
 * [ ] CSS units of measurements, px, rem, em, %, etc.
