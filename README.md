@@ -16,6 +16,8 @@ Here are additional resource links
 HTML, or Hyper Text Markup Language, is a programming language that is used to display content for web pages. It is sometimes referred to the skeletons of web pages, providing the foundation of the content for web pages.
 
 ### How to make a HTML file
+Different programming language all have something in common in making them of having files end in whatever the language is. For Java files they end in .java, PHP ends in .php etc. 
+
 HTML files end in .html and it is case sensitive and it will tell web browsers that it is an HTML file and it is the **structure** of the web page. Before the .html is the name of the page, and for best practice for the main page is index.html. 
 
 Here are some examples below:
@@ -209,8 +211,8 @@ This is an example of a multi-line CSS comment:
 * [ ] Inline styling, styling tags, best practice
 * [ ] CSS units of measurements, px, rem, em, %, etc.
 * [ ] CSS Colors
-* [ ] Explain how files are in a certain language, .html, .css etc.
-* [ ] Link live Project
+* [x] Explain how files are in a certain language, .html, .css etc.
+* [x] Link live Project
 * [ ] Box Model
 * [ ] How Pages Connects
 * [ ] Have examples of all of the elements
