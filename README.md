@@ -109,8 +109,27 @@ Here is a resource of all the properties you can use on an element:
 
 >Link to the [CSS Properties](https://www.w3schools.com/cssref/)
 
+### CSS Selectors
+In CSS Selectors really depend on what you want to change. 
+
+```CSS
+h1 {
+
+}
+
+#id_Name {
+
+}
+
+.class_name {
+
+}
+```
+
+You can select certain HTML elements by their class, id or by the element it self. Also be aware that if you select a certain selector in the CSS, all of the elements that the selector will share all the styles. For example if you have a selector of h1 that means all of the h1 on the page will have the style specified in the CSS. Sometimes you might not want all the h1 ones to have the styles that is why using classes and ids are recommended in for selectors in CSS.
+
 ### CSS Comment
-This is an example of a css comment:
+This is an example of a CSS comment:
 
 ```CSS
 /* This is a CSS comment */
