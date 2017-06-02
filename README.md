@@ -34,8 +34,16 @@ Here is a resource that shows all the HTML tags
 
 >Link to the [HTML Tags](https://www.w3schools.com/tags/ref_byfunc.asp)
 
+### HTML Attributes 
+HTML elements has many attributes and each element has there own specific attribute. But the most common attributes for HTML elements are Class and Id. 
 
+```HTML
+<h1 class="name_of_the_class" id="name_of_the_id"></h1>
+```
 
+Classes and ids can be named anything but it can't start with a symbol or a number. The purpose of these attributes is for giving specific classification for elements to be referenced to in another language such as styling, and behavior. 
+
+Classes and ids are not required in writing elements and you can have one or the other or none, it is just best practice to have them and are needed in styling and behaviors.
 
 ### HTML Comment
 This is an example of a HTML comment:
