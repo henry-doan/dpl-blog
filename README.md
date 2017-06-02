@@ -16,7 +16,7 @@ Here are additional resource links
 HTML, or Hyper Text Markup Language, is a programming language that is used to display content for web pages. It is sometimes referred to the skeletons of web pages, providing the foundation of the content for web pages.
 
 ### How to make a HTML file
-Different programming language all have something in common in making them of having files end in whatever the language is. For Java files they end in .java, PHP ends in .php etc. 
+Different programming language all have something in common in making them of having files end in whatever the language is. For Java files they end in .java, PHP ends in .php etc.
 
 HTML files end in .html and it is case sensitive and it will tell web browsers that it is an HTML file and it is the **structure** of the web page. Before the .html is the name of the page, and for best practice for the main page is index.html. 
 
@@ -110,6 +110,49 @@ Like the Header tag anything that is inside of the **Footer** tags, it will show
 
 ## CSS
 CSS or Cascading Style Sheet is allows us to style our HTML elements using rules. CSS can style the sizing, typography, colors and positioning content on the page.
+
+### Ways to Style
+There are three ways to style a web page, in line styling, style tag, and another file styling. 
+
+**In line styling** is styling inside the element itself.
+
+```HTML
+<h1 style="color: red; font-size: 24px"></h1>
+```
+
+**Style tag** styling is using the style tags and putting styles in between the style tags.
+
+```HTML
+<style>
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+.nav-bar {
+    background-color: green;
+    opacity: 0.3;
+}
+
+</style>
+```
+
+Last but not least is the most recommended and best practice is to have all the styles in a .css file
+
+```CSS
+/* in the style.css file */
+
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+.nav-bar {
+    background-color: green;
+    opacity: 0.3;
+}
+
+```
 
 ### How to make a CSS file
 CSS files end in .css and like HTML files are case sensitive and it will tell web browsers that it is an CSS file and it is the **styles** of the web page. Before the .css is the name of the page, and for best practice for the main styles the name is main.css or style.css. 
@@ -208,7 +251,7 @@ This is an example of a multi-line CSS comment:
 
 #TODOS
 * [x] Info on how to use selectors in CSS
-* [ ] Inline styling, styling tags, best practice
+* [x] Inline styling, styling tags, best practice
 * [ ] CSS units of measurements, px, rem, em, %, etc.
 * [ ] CSS Colors
 * [x] Explain how files are in a certain language, .html, .css etc.
