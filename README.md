@@ -14,7 +14,9 @@ Here are additional resource links
 HTML, or Hyper Text Markup Language, is a programming language that is used to display content for web pages. It is sometimes referred to the skeletons of web pages, providing the foundation of the content for web pages.
 
 ### How to make a HTML file
-HTML files end in .html and it is case sensitive and it will tell web browsers that it is an HTML file and it is the structure of the web page. Before the .html is the name of the page, and for best practice for the main page is index.html. Here are some examples below
+HTML files end in .html and it is case sensitive and it will tell web browsers that it is an HTML file and it is the structure of the web page. Before the .html is the name of the page, and for best practice for the main page is index.html. 
+
+Here are some examples below:
 
 ```
 index.html
