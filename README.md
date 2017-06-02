@@ -14,7 +14,7 @@ Here are additional resource links
 HTML, or Hyper Text Markup Language, is a programming language that is used to display content for web pages. It is sometimes referred to the skeletons of web pages, providing the foundation of the content for web pages.
 
 ### How to make a HTML file
-HTML files end in .html and it is case sensitive and it will tell web browsers that it is an HTML file and it is the structure of the web page. Before the .html is the name of the page, and for best practice for the main page is index.html. 
+HTML files end in .html and it is case sensitive and it will tell web browsers that it is an HTML file and it is the **structure** of the web page. Before the .html is the name of the page, and for best practice for the main page is index.html. 
 
 Here are some examples below:
 
@@ -25,7 +25,7 @@ about.html
 rockpage.html
 ```
 
-To create an HTML file there are two best ways. The first is if you right click on where you want the file to be there might be an option under new to have a new file and name it something ending in .html. The other way is what developers do to create one is opening up the terminal and the change directory to where you want the file to be and then run this command:
+To create an HTML file there are two best ways. The first is if you right click on where you want the file to be there might be an option under new to have a new file and name it something ending in .html. The other way is what developers do to create one, is opening up the terminal and the change directory to where you want the file to be and then run this command:
 
 ```shell
 touch index.html
@@ -106,6 +106,24 @@ Like the Header tag anything that is inside of the **Footer** tags, it will show
 
 ## CSS
 CSS or Cascading Style Sheet is allows us to style our HTML elements using rules. CSS can style the sizing, typography, colors and positioning content on the page.
+
+### How to make a CSS file
+CSS files end in .css and like HTML files are case sensitive and it will tell web browsers that it is an CSS file and it is the **styles** of the web page. Before the .css is the name of the page, and for best practice for the main styles the name is main.css or style.css. 
+
+Here are some examples below:
+
+```
+main.css
+contact.css
+about.css
+style.css
+```
+
+To create an CSS file similarly to HTML there are two best ways. The first is if you right click on where you want the file to be there might be an option under new to have a new file and name it something ending in .css. The other way is what developers do to create one, is opening up the terminal and the change directory to where you want the file to be and then run this command:
+
+```shell
+touch style.css
+```
 
 ### Syntax
 The **Syntax** for the CSS language is a very different than the HTML **Syntax** and it has two parts a **Selector** and a **Declaration**. **Selectors** are used to select elements that you want to manipulate.**Declarations** is how you want to manipulate the element and is encased in { } brackets. Declarations have a **Property** and a **Value** to manipulate the element and ends each manipulation with a semicolon ; .
