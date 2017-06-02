@@ -54,13 +54,13 @@ This is an example of a HTML comment:
 
 Everything in the comment will not run or show up in the browser. Developers uses code comments to take notes on certain pieces of code, or have TODOS, or even to not show a block of code without deleting it. Every programming language has its own commenting syntax.You can also do single line comments or multi-line comments as well.
 
-This is an example of a single line html comment:
+This is an example of a single line HTML comment:
 
 ```HTML
 <!-- This is a single line HTML comment -->
 ```
 
-This is an example of a multi-line html comment:
+This is an example of a multi-line HTML comment:
 
 ```HTML
 <!-- 
@@ -87,7 +87,7 @@ Like the Header tag anything that is inside of the **Footer** tags, it will show
 <br>
 
 ## CSS
-CSS or Cascading Style Sheet is allows us to style our html elements using rules. CSS can style the sizing, typography, colors and positioning content on the page.
+CSS or Cascading Style Sheet is allows us to style our HTML elements using rules. CSS can style the sizing, typography, colors and positioning content on the page.
 
 ### Syntax
 The **Syntax** for the CSS language is a very different than the HTML **Syntax** and it has two parts a **Selector** and a **Declaration**. **Selectors** are used to select elements that you want to manipulate.**Declarations** is how you want to manipulate the element and is encased in { } brackets. Declarations have a **Property** and a **Value** to manipulate the element and ends each manipulation with a semicolon ; .
@@ -148,13 +148,13 @@ This is an example of a CSS comment:
 
 Like HTMl comment and every comment everything in the comment will not run or show up in the browser. The same purposes as a HTML comments. You can also do single line comments or multi-line comments as well.
 
-This is an example of a single line css comment:
+This is an example of a single line CSS comment:
 
 ```CSS
 /* This is a single line CSS comment */
 ```
 
-This is an example of a multi-line css comment:
+This is an example of a multi-line CSS comment:
 
 ```CSS
 /* 
@@ -167,7 +167,7 @@ This is an example of a multi-line css comment:
 <br>
 
 ##TODOS
-* [ ] Info on how to use selectors in css
+* [x] Info on how to use selectors in CSS
 * [ ] Inline styling, styling tags, best practice
 * [ ] CSS units of measurements, px, rem, em, %, etc.
 * [ ] CSS Colors
@@ -178,7 +178,7 @@ This is an example of a multi-line css comment:
 * [ ] Have examples of all of the elements
 * [ ] Have examples of all of the properties
 * [ ] Fonts / Typography
-* [ ] HTML Attributes
+* [x] HTML Attributes
 * [ ] Separators, divs, aside, section etc. 
-* [ ] Advance sections of events with css, hover etc.
+* [ ] Advance sections of events with CSS, hover etc.
     
