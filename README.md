@@ -172,6 +172,19 @@ To create an CSS file similarly to HTML there are two best ways. The first is if
 touch style.css
 ```
 
+### How to connect a style sheet to the HTML document
+
+In the HTML file or document, in order to have the element have the styles you would have to connect it. You don't need to connect the styles if you are doing in line styling or with the style tags because it is in the document itself. For another file styles, you would have to add this line in the head of the document that says what the file is, the relationship it has and where the file is in retrospect of where you are. For example if your style.css is in the same folder then in the href you would put "style.css". If it is in side of a folder or directory, it is "foldername/style.css". If is it out side then it is "../style.css".
+
+```HTML
+<head>
+    <title>DPL Blog</title>
+
+    <!-- this is how you link the stylesheet to a HTML file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+```
+
 ### Syntax
 The **Syntax** for the CSS language is a very different than the HTML **Syntax** and it has two parts a **Selector** and a **Declaration**. **Selectors** are used to select elements that you want to manipulate.**Declarations** is how you want to manipulate the element and is encased in { } brackets. Declarations have a **Property** and a **Value** to manipulate the element and ends each manipulation with a semicolon ; .
 
@@ -257,7 +270,7 @@ This is an example of a multi-line CSS comment:
 * [x] Explain how files are in a certain language, .html, .css etc.
 * [x] Link live Project
 * [ ] Box Model
-* [ ] How Pages Connects
+* [x] How Pages Connects
 * [ ] Have examples of all of the elements
 * [ ] Have examples of all of the properties
 * [ ] Fonts / Typography
