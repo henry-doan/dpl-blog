@@ -235,6 +235,35 @@ h1 {
 
 You can select certain HTML elements by their class, id or by the element itself. Also be aware that if you select a certain selector in the CSS, all of the elements that the selector will share all the styles. For example, if you have a selector of h1 that means all of the h1 on the page will have the style specified in the CSS. Sometimes you might not want all the h1 ones to have the styles that are why using classes and ids are recommended in for selectors in CSS.
 
+In CSS you can also chain selectors together to span the same styles across from elements. You can do this by adding commas after each element selector.
+
+```CSS
+h1, p, b {
+    color: green;
+}
+```
+
+If you have embedded elements in the HTML such as:
+
+```HTML
+<div class="box">
+    <div id="little_box">
+        <p>Doll</p>
+    </div>
+    <div id="big_box">
+        <p>Toy</p>
+    </div>
+</div>
+```
+
+To just style the p tag with the doll you can put a id or class on it or you can list the embedded parent selectors of where the p tag is. you can do this by listing each of the parent element selector and having a space after each listing.
+
+```CSS
+.box #little_box p {
+    color: blue;
+}
+```
+
 ### CSS Comment
 This is an example of a CSS comment:
 
@@ -319,6 +348,7 @@ h3 {
 
 TODOS
 * [x] Info on how to use selectors in CSS
+* [x] Advance selectors 
 * [x] Inline styling, styling tags, best practice
 * [ ] CSS units of measurements, px, rem, em, %, etc.
 * [x] CSS Colors
