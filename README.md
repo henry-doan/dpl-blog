@@ -344,7 +344,6 @@ h3 {
 
 >Here is a reference for [colors](https://www.w3schools.com/colors/colors_names.asp)
 
-
 ###CSS Unit of Measurements
 
 When styling you might want to change the size of some elements and this is achieved by two ways, one is **Relative** Measurements and the other is **Absolute** Measurements. 
@@ -407,7 +406,7 @@ h1 {
 }
 
 h1 {
-    font-size: 36in; /* in is inches.  */
+    font-size: 36in; /* in is inches. */
 }
 
 h1 {
@@ -424,6 +423,41 @@ h1 {
 
 ```
 
+###Fonts and Typography 
+
+For styling fonts there are limitation depending on web browsers and versioning  of the browsers. The browser does have some default fonts you can work with. To use the default fonts you can just have them in a string and in them the font name and it does not matter if it is capitalize or not.
+
+```CSS
+h1 {
+    font-family: 'Times';
+}
+```
+
+You can also chain fonts one after the other to cover if the browser supports it or not. If the browser does support it will use the font if it does not than it will go to the next one that is supported.
+
+```CSS
+p {
+    font-family: 'Times', 'Arial', 'Serif';
+}
+```
+
+If you are using a external font, you would have to import them by CDN or either downloading it. Depending on where you got the font, you would have to follow their documentation. For example for google font.
+
+```HTML 
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+```
+
+or in the CSS
+```CSS
+    @import url('https://fonts.googleapis.com/css?family=Pacifico');
+```
+
+then you can use it:
+```CSS
+p {
+    font-family: 'Pacifico', cursive;
+}
+```
 
 TODOS
 * [x] Info on how to use selectors in CSS
@@ -438,8 +472,7 @@ TODOS
 * [x] How Pages Connects
 * [ ] Have examples of all of the elements
 * [ ] Have examples of all of the properties
-* [ ] Fonts / Typography
+* [x] Fonts / Typography
 * [x] HTML Attributes
-* [ ] Separators, divs, aside, section etc. 
 * [ ] Advance sections of events with CSS, hover etc.
     
